@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="LOGO/barlogo5.png" type="image/png"/>
+<title>Connex Company</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+
+<style>
+* {
+	
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.header {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	text-align: justify;
+	color: #000000;
+}
+
+.topnav {
+	border: 1px solid;
+	border-color: #6699FF #FFFFFF #6699FF #FFFFFF;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	color: #000000;
+	letter-spacing: normal;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #000000; /* 文字color */;
+	text-align: center;
+	padding: 8px 60px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	color: #FFFFFF /*下拉選單的字*/
+}
+.dropdown:hover .dropbtn{
+	color:  #0066FF /*bar上的字*/
+}
+
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: #999999;
+	padding: 8px 40px;/*影響bar的高、寬 */
+
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #3399FF;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.column {
+	float: left;
+	padding: 10px;
+	padding-bottom: 200px; /*table也要調200px 這樣視窗拉到底剛好是footer的底部 */
+
+}
+/*
+.column.side {
+	width: 15%;
+		
+
+}
+
+.column.middle {
+    width: 70%;
+
+
+}
+*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+.column.side {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 15%;
+}
+.column.side iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 15%;
+}
+
+.column.middle {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 70%;
+}
+.column.middle iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 70%;
+}
+
+
+
+.footer {
+	padding: 10px;
+	text-align: center;
+	height: 100px;
+	background-color: #6699FF;
+	height: 100px;
+	position: relative;
+	margin-top: -200px;
+}
+.style3 {
+	margin-left: 0px;
+	margin-right: 2px;
+}
+.style4 {
+	margin-right: 192px;
+}
+.style5 {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.style6 {
+	text-align: center;
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<div class="header">
+  
+  
+  <table cellpadding="0" cellspacing="0" style="width: 700px; height: 103px">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td style="width: 313px" valign="top">
+		<a href="#" style="cursor:pointer ">
+		<img alt="logoall" src="logoall7.png" width="217" height="auto" onclick="location.href='index.htm'"></a>
+		</td>
+		<td style="width: 191px;" valign="top">&nbsp;
+  
+  
+  		</td>
+		<td style="width: 196px; height: 103px;">&nbsp;</td>
+		</tr>
+	</table>
+  
+  
+</div>
+
+
+<div class="topnav"  >
+
+      <div>            
+          <a style="width: 156px; height: 21px; " >
+			</a>
+	  </div>     
+      
+       <div class="dropdown" style="width: 90px">   
+      <input type="button" class="dropbtn" onclick="location.href='index.htm'" value="Home" 
+      style="cursor:pointer ">
+    </div>  
+  
+      
+      
+   <div class="dropdown" style="width: 125px">   
+      <button class="dropbtn">Company 
+         <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+            <a target="_parent" href="comvision.htm" >
+				Vision &amp; Mission</a>
+        	<a target="_parent" href="comvalues.htm" >
+			Value &amp; Business  </a>
+        	<a target="_parent" href="comprofile.htm">
+			Company Profile  </a>
+        	<a target="_parent" href="comteam.htm" >
+			Management</a>   
+      </div>  
+    </div>  
+  
+  
+   <div class="dropdown" style="width: 125px">   
+       <button class="dropbtn">Products
+           <i class="fa fa-caret-down"></i>       
+       </button>    
+       <div class="dropdown-content">
+   			 <a target="_parent" href="proconnector.htm" >
+				DVI Connector</a>
+        	<a target="main" href="main_values.htm" onClick="parent.left.location='leftpro.htm'">
+				apple </a>
+        	<a target="main" href="main_profile.htm" onClick="parent.left.location='leftpro.htm'">
+				apple  </a>
+        	<a target="main" href="main_team.htm" onClick="parent.left.location='leftpro.htm'">
+				oragne</a>      
+       </div>
+    </div>
+    
+    
+    <div class="dropdown" style="width: 125px">   
+       <button class="dropbtn">Downloads
+           <i class="fa fa-caret-down"></i>       
+       </button>    
+       <div class="dropdown-content">
+   			 <a target="_parent" href="dowrohs.htm">
+				RoHS & REACH</a>
+        	<a target="main" href="../main_values.htm" onClick="parent.left.location='leftcom.htm'">
+				Others </a>
+        	    
+       </div>
+    </div>
+
+
+     <div class="dropdown" style="width: 120px">   
+       <button class="dropbtn">Careers
+           <i class="fa fa-caret-down"></i>       
+       </button>    
+       <div class="dropdown-content">
+   			 <a target="main" href="../main_DVI.htm" onClick="parent.left.location='leftcom.htm'">
+				DVI Connector</a>
+        	<a target="main" href="../main_values.htm" onClick="parent.left.location='leftcom.htm'">
+				apple </a>
+        	<a target="main" href="../main_profile.htm" onClick="parent.left.location='leftcom.htm'">
+				apple  </a>
+        	<a target="main" href="../main_team.htm" onClick="parent.left.location='leftcom.htm'">
+				oragne</a>      
+       </div>
+    </div>
+    
+
+ 
+    <div class="dropdown" style="width: 120px">   
+      <input type="button" class="dropbtn" onclick="location.href='contact.htm'" value="Contact" style="cursor:pointer "  >
+	</div>
+
+ 
+</div>
+
+  
+  
+  
+  
+ <table cellpadding="0" cellspacing="0" style="width: 750px; height:200px; float: none; background-color: #FFFFFF;" class="style4"> 
+
+
+
+  <div class="row">
+   
+   
+        <div class="column side" style="width: 16%; height: 216px; margin-left:30px">
+           <iframe name="left" id="I4" style="width: 160px; height: 746px;" class="style3" src="leftcom.htm" scrolling="no" border="0" frameborder="0">您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。
+			</iframe>
+	</div> 
+
+  
+    <div class="column middle" style="width: 66%; margin-left:2px">
+        <iframe name="main" id="I2" style="width:672px; height: 746px;" class="style5" src="main_profile.htm" scrolling="no" border="0" frameborder="0">您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。
+		</iframe>
+    </div>
+  
+  
+  
+  
+  
+  <!-- MSTableType="layout" -->
+      <div class="column side" style="width: 13%; height: 216px; margin-left:1px">
+           <iframe name="I4" id="I4" style="width: 140px; height: 746px;" class="style3" src="" scrolling="no" border="0" frameborder="0">您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。
+			</iframe>
+	</div> 
+
+	
+  </div>	
+  		
+
+	</table>  
+	<div class="footer" style="height:200px">
+          <iframe name="foot" id="I1" style="width: 689px; height: 164px; " class="style3" src="footer.htm" scrolling="no" border="0" frameborder="0">您的瀏覽器不支援內置框架或目前的設定為不顯示內置框架。
+		 </iframe>
+	</div>
+	
+	
+</body>
+</html>
